@@ -1,0 +1,504 @@
+@font-face{
+    font-family: 'aniron';
+    src: url('anicb.ttf');
+    src: url('anicm.ttf');
+    
+  }
+  @font-face{ 
+    font-family: 'Party Business';
+    src: url('partybusiness.ttf');
+  }
+  
+  @font-face{
+    font-family:'annatar';
+    src: url('tngan.ttf');
+    src : url('tnganb.ttf');
+    src: url('tnganbi.ttf');
+    src: url('tngani.ttf')
+  }
+
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255,255,255,.5);
+    color: white !important;
+    font-size: 0.7rem;
+   
+}
+
+.navbar-dark{
+    
+    background-color: #FF4900 ;
+    font-family:'aniron';
+   
+    height:55px;
+  
+}
+
+h1, h2{
+    font-family:"Party Business";
+}
+
+h2{
+    font-weight: bold;
+}
+
+.letter{
+    font-family:"annatar";
+    color:#FF4900;
+    margin-bottom: 5px;
+    
+}
+
+.carousel-caption{
+    margin-bottom: 9rem;
+    font-family: "aniron";
+    text-align: center;
+   
+}
+
+.navbar-collapse{
+    margin-left:55px;
+    font-weight: bold;
+    
+
+}
+
+.navbar-nav li a:hover{
+    border-bottom: 1px solid white;
+    
+    
+    
+}
+
+.collapse ul li a:hover{
+    color:black;
+}
+
+
+
+#carousel-example-generic{
+    margin-top: 40px;
+}
+
+.carousel-item  img{
+    width:100%;
+  
+}
+
+
+.carousel-fullscreen .carousel-inner .item {
+    height: 100vh; 
+    min-height: 600px; 
+    background-position: center center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+
+/* carousel fullscreen - vertically centered caption*/
+
+.carousel-fullscreen .carousel-caption {
+    top: 50%;  
+    bottom: auto;
+    -webkit-transform: translate(0, -50%); 
+    -ms-transform: translate(0, -50%); 
+    transform: translate(0, -50%);
+}
+
+.pills h2{
+  
+    margin-left: 10px;
+    font-size:30px;
+}
+
+.pills span{
+    font-size: 20px;
+}
+
+.nav-pills{
+  display: flex;
+  justify-content:center;
+  margin-bottom: 20px;
+  
+}
+
+.nav-pills li:hover{
+    border-bottom: 1px solid #FF4900 ;
+  
+    color: white;
+ 
+    text-align: center;
+    
+}
+
+.nav-pills li{
+    text-decoration: none;
+    color:grey;
+    margin: 3px;
+    
+    text-align: center;
+}
+
+.nav-pills li a{
+    text-decoration:none;
+    font-family: 'aniron';
+    color: grey;
+    
+
+    /* color: #6b6865; */
+}
+
+.nav-pills li a:hover{
+    color: lightgrey;
+    color: #FF4900;
+    
+    
+}
+
+.perso1{
+    display:flex;
+    justify-content: space-between;
+    flex-flow: wrap;
+    margin: 0 auto;
+    font-family:'aniron'; 
+
+}
+
+#gandalf img, #gandalf2 img, #hobbit img, #yummy img{
+    width: 99%;
+    height:330px;
+}
+#img1, #img2, #img3{
+    width:287px;
+    height:300px;
+    margin-bottom:50px;
+}
+
+#img1 img, #img2 img, #img3 img{
+    opacity: 0.5;
+    
+    
+}
+
+#text1 h4, #text4 h4, #arr h4{
+    text-align: center;
+    font-size: 18px; 
+}
+
+#text1, #text4, #arr{
+   
+    opacity: 0.8;
+    position: relative;
+    bottom: 320px;
+    left: 25px;
+    height: 80px;
+    width: 250px;
+    background-color: white;
+    border-radius: 10px; 
+}
+
+.text4_bis h4{
+    line-height: 70px;
+}
+
+#text1 h4 span, #arr h4 span{
+    color: orange;
+}
+
+#text2 span, #hob span, #text5 span, #arr2 span{
+    text-align: center;
+    font-size: 40px;
+    position: absolute;
+    bottom: 60px;
+    left: 40px;
+    color: white;
+    font-weight: bold;
+}
+
+.gimli {
+    color:  #FF4900 !important;
+    
+}
+
+.gimli1{
+    text-decoration: line-through #FF4900;
+    position: absolute;
+    top:250px;
+}
+
+
+#text3 span, #arr3 span {
+    text-align:center;
+    font-size:20px;
+    color: white;
+    position: absolute;
+    bottom: 25px;
+    left:85px;
+    font-weight:bold;   
+}
+
+#bloc_img img, #bloc_img2 img, #bloc_img3 img{
+    width:99%;
+}
+
+#bloc_img3, #bloc_img, #bloc_img2{
+    position:relative;
+}
+.text3_bis, .text6_bis{
+    display:none;
+}
+#img1:hover .text3_bis{
+    display:block; 
+}
+
+#img3:hover .text6_bis{
+    display:block; 
+}
+
+#img2:hover .text3_bis{
+    display:block; 
+}
+
+
+
+#img1 img:hover{
+    opacity:1;
+}
+
+#img2 img:hover{
+    opacity:1;
+}
+#img3 img:hover{
+    opacity:1;
+}
+.text1_bis{
+    display: block;   
+}
+#img1:hover .text1_bis{
+    display:none;
+}
+
+
+#arr:hover .text1_bis{
+    display:none;
+}
+.text2_bis, .text5_bis{
+    display: block;
+}
+#img1:hover .text2_bis{
+    display:none;
+}
+
+#img3:hover .text5_bis{
+    display:none;
+}
+#img3:hover .text4_bis{
+    display:none;
+}
+
+#img2:hover .text2_bis{
+    display:none;
+}
+
+#img2:hover .text1_bis{
+    display:none;
+}
+
+#img3:hover .text2_bis{
+    display:none;
+}
+
+
+
+hr{
+    border: 2px solid #6b6865;
+}
+
+.captured{
+    display:flex;
+    margin-right:30px;
+}
+
+.captured h2{
+    font-size: 22px;
+}
+
+.text button{
+    margin-left: 340px;
+    background-color: white;
+    color: black;
+    border:1px solid black;
+	padding:6px 5px 6px 5px;
+	border-radius:4px;
+	background: white;
+	font:bold 14px;
+    
+}
+
+.hunter, .hunter1, .hunter2{
+    display:flex;
+    flex-flow: wrap;
+    margin-right: 150px;
+    text-decoration: none;
+   
+    
+}
+
+.hunter1 img, .hunter2 img{
+    width:90px;
+    height:90px;
+    border-radius: 5px;
+    
+}
+.hunter1 p, .hunter2 p, .description p, .description span{
+    padding-left: 10px;
+    margin-left: 10px;
+}
+
+.description span a{
+    text-decoration: none; 
+    color: black;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.description p{
+    font-weight: bold;
+    color: black;
+}
+
+.description p button{
+    background-color: #6b6865;
+    color:white;
+    border-radius:5px;
+}
+
+
+.hunter h2{
+    font-size:22px;
+}
+
+h2{
+    font-size: 22px;
+}
+
+table, tr, th, td{
+    border: 1px solid #6b6865;
+    
+}
+
+th{
+    background-color:#6b6865 ;
+    color: white;
+}
+ tr{
+     text-align: center;
+ }
+
+.ring h6{
+    color:black;
+    font-weight: bold;
+    margin-top:20px; 
+}
+
+.card{
+    
+    margin-bottom: 20px;
+    border: 2px solid black;
+    background-color: black !important;
+    
+}
+
+.card-header{
+    color:white;
+    font-weight:bold;
+    margin-bottom: 20px;
+}
+
+.card-title, .card-text{
+    color:white;
+    background-color: black;
+}
+
+.table{
+    color: white !important;
+}
+
+.join{
+    display: flex;
+    justify-content: space-around;
+}
+.precious img{
+    margin-left: 100px;
+}
+
+.mordor{
+    display: flex;
+    flex-flow: wrap;
+}
+
+.mordor img{
+    border-radius:3px; 
+}
+
+.mordor_text{
+    margin-left: 20px;
+    max-width:800px;
+}
+
+.mordor_text button{
+    margin-left: 180px;
+    background-color: white;
+    color: black;
+    border:1px solid black;
+	padding:6px 5px 6px 5px;
+	border-radius:4px;
+	background: white;
+	font:bold 14px;
+}
+
+.form-group{
+    max-width: 800px;
+    margin: 0 auto;
+    
+}
+
+.page-footer{
+    background-color: #4f4c4c;
+    margin-top: 40px;
+}
+
+.page-footer ul li a, .col-md-6 a, .col-md-6 p{
+    text-decoration: none;
+    color: white;
+    
+}
+
+@media (max-width: 600px) {
+    .captured {
+      display:flex;
+      flex-flow: wrap ;
+    }
+
+    .text button{
+        margin-left: 120px;
+    }
+
+    .mordor{
+        display:flex;
+        flex-flow: column;
+    }
+
+    .button_mordor button{
+        margin-left: 0;
+    }
+
+    #carousel-example-generic{
+        margin-top: 50px;
+    }
+  }
+
+  @media (max-width: 380px) {
+    img.navbar-brand{
+        width:10rem;
+    }
+  }
+
